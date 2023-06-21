@@ -495,7 +495,7 @@ footer p{
     align-self: center;
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) and (min-width: 769px) {
 
 .firstPart{
     width: 150%;
@@ -524,7 +524,7 @@ footer p{
 
 .fourthPart{
     width: 150%;
-    padding-bottom: 30px;
+    padding-bottom: 47px;
 }
 
 .video{
@@ -550,4 +550,31 @@ footer p{
     width: 150%;
 }
 
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px){
+
+.twitterText{
+    padding-left: 4%;
+}
+
+.partSix{
+    height: 50vh;
+}
+
+.listImages{
+    gap: 0 15%;
+}
+
+}
+
+@media screen and (max-width: 480px){
+
+    .paragraph{
+        height: 260px;
+    }
+
+    .miniText{
+        margin-top: 75px;
+    }
 }
